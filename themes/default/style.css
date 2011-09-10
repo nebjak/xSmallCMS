@@ -1,0 +1,47 @@
+body {
+    font-family: 'Droid Sans', Arial, sans-serif;
+}
+
+#header {
+    width: 800px;
+    margin: auto;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: oblique;
+    margin-bottom: 20px;
+}
+
+#nav_bar {
+    width: 780px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;    
+}
+
+#page {
+    width: 780px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    border: 1px solid burlywood;
+}
+
+#footer {
+    width: 780px;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    font-size: 0.6em;
+    color: #cccccc;
+}
+
+a.page_button {
+    min-width: 100px;
+    height: 16px;
+    background-color: #ccffcc;
+    padding: 8px 8px 8px 8px;
+    border: 1px solid #99ff99;
+    text-decoration: none;
+}
+
+a:hover.page_button {
+    background-color: #99ff99;
+    border-color: #ccffcc;
+}
